@@ -26,7 +26,7 @@ public class Keywords {
 	
 	private WebDriver  driver = null;
 	
-	public WebDriver ConfigureBrowser(String browserName, String language) {
+	public WebDriver ConfigureBrowser(String browserName, String language){
         if (browserName.equalsIgnoreCase("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "drivers//geckodriver.exe");
             /*FirefoxProfile profile = new ProfilesIni().getProfile("default");
