@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.PDS_Alfresco.tests.ModifierSujetDiscussionTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="modifierSujetDiscussion"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.PDS_Alfresco.tests.ModifierSujetDiscussionTest -->
+      <class name="com.PDS_Alfresco.tests.CreerSousGroupeTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="creerSousGroupe"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.PDS_Alfresco.tests.CreerSousGroupeTest -->
+      <class name="com.PDS_Alfresco.tests.CreerProprieteTypePersonaliseTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="creerProprieteTypePersonalise"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.PDS_Alfresco.tests.CreerProprieteTypePersonaliseTest -->
+      <class name="com.PDS_Alfresco.tests.SupprimerModuleSiteTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="supprimerModule"/>
+        </methods>
+      </class> <!-- com.PDS_Alfresco.tests.SupprimerModuleSiteTest -->
+      <class name="com.PDS_Alfresco.tests.AjouterModuleSiteTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="AjouterModule"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.PDS_Alfresco.tests.AjouterModuleSiteTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

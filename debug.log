@@ -1,0 +1,2 @@
+[0905/011224.924:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\MrRobot\AppData\Local\Temp\scoped_dir29512_1159683967\Crashpad\reports\f1178217-41e4-4dfe-972f-049fe93831b0.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0905/011226.038:ERROR:process_info.cc(359)] UncheckedAllocate

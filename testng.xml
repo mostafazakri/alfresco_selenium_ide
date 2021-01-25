@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.PDS_Alfresco.tests.ModifierSujetDiscussionTest"/>
+      <class name="com.PDS_Alfresco.tests.AjouterModuleSiteTest"/>
+      <class name="com.PDS_Alfresco.tests.CreerProprieteTypePersonaliseTest"/>
+      <class name="com.PDS_Alfresco.tests.SupprimerModuleSiteTest"/>
+      <class name="com.PDS_Alfresco.tests.CreerSousGroupeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
