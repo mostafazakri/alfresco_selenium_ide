@@ -23,8 +23,8 @@ This project uses Maven to manage the the dependencies, TestNG to run tests and 
 
     loginProps.properties : contains tests configuration for tests
 *  pom.xml: dependencies file
-
-*  testng.xml
+    
+*  testng.xml : contains the testNG configuration
 
 *  test-output ->
 
