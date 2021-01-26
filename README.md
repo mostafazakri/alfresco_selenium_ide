@@ -18,11 +18,11 @@ This project uses Maven to manage the the dependencies, TestNG to run tests and 
     contains all the test cases using TestNG assertions and annotations
 *  config -> 
     loginProps.properties : contains tests configuration for tests
-*  pom.xml: contains all called
+*  pom.xml: dependencies file
 *  testng.xml
 *  test-output ->
     contains the test result files (with HTML report)
     
 ## Project Deployment :
 You can fork this repository on your machine
-Install Alfresco community edition via : [Containerized Deployment (6.2 GA) available](https://www.alfresco.com/thank-you/thank-you-downloading-alfresco-community-edition) 
+Install Alfresco community edition via : [Containerized Deployment (6.2 GA)](https://www.alfresco.com/thank-you/thank-you-downloading-alfresco-community-edition) 
